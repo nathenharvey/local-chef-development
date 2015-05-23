@@ -4,8 +4,9 @@ Not all Chef workshops happen in places with Internet connectivity.  This reposi
 
 ## Connected to the Internet
 
+1.  Clone this repository
 1.  Use the included Vagrantfile
-2.  vagrant up
+1.  `vagrant up`
 
 You only need to do this one time while connected to the Internet.  This will:
 
@@ -22,5 +23,5 @@ You only need to do this one time while connected to the Internet.  This will:
   * cowsay
   * fortune-mod
   * sl
-1. move to the apache cookbook included in this repo
-1. kitchen test
+1. move to the apache cookbook included in this repo (`cd chef-repo/cookbooks/apache`)
+1. `kitchen test`
