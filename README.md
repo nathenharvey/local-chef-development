@@ -15,7 +15,7 @@ You only need to do this one time while connected to the Internet.  This will:
 
 ## Disconnected from the Internet
 
-1.  vagrant ssh
+1.  `vagrant ssh`
 1.  verify chef-apply can install the following packages:
   * vim (`sudo chef-apply -e "package 'vim'"`)
   * emacs
